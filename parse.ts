@@ -1,4 +1,10 @@
-import { TokenValuePair, TOKENS } from "./types";
+import {
+  TokenValuePair,
+  TOKENS,
+  ScProgram,
+  ScStatement,
+  ScFunctionCall
+} from "./types";
 
 export const parse = (tokens: TokenValuePair[]): ScProgram => {
   const program: ScProgram = { statements: [] };
