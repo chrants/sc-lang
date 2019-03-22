@@ -1,0 +1,32 @@
+{
+  "name": "simple-ts-lang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node compile.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.3",
+    "jest": "^24.5.0",
+    "meow": "^5.0.0",
+    "ts-jest": "^24.0.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|js)$": "ts-jest"
+    },
+    "testRegex": ".*\\.(spec).+(js|ts)?"
+  }
+}
